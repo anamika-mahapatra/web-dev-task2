@@ -1,0 +1,82 @@
+
+.min-h-screen{
+    min-height: 100vh;
+}
+
+body{
+    color: aliceblue;
+}
+
+.bg-blue{
+    background-color: blue;
+}
+
+.mx-auto{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.flex{
+    display: flex;
+}
+
+.items-center{
+    align-items: center;
+
+}
+
+.justify-between{
+    justify-content: space-between;
+}
+
+.justify-center{
+    justify-content: center;
+}
+
+.flex-col{
+    flex-direction: column;
+}
+
+
+.font-bold{
+    font-weight: bolder;
+}
+
+.my-1{
+    margin-top: 13px;
+    margin-bottom: 13px;
+    font-family: "Lora", serif;
+}
+
+.my-2{
+    margin-top: 26px;
+    margin-bottom: 26px;
+    font-family: "Noto Serif", serif;
+}
+
+.px-2{
+    padding-left: 13px;
+    padding-right: 13px;
+
+}
+
+.text-blue{
+    color: rgb(95, 187, 135);
+}
+
+.btn{
+    padding: 7px 12px;
+    border: 2px solid white;
+    border-radius: 9px;
+    cursor: pointer;
+    color: aliceblue;
+    background-color: rgb(87, 174, 109);
+}
+
+
+.text-center{
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+

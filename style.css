@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Kulim+Park:ital,wght@0,200;0,300;0,400;0,600;0,700;1,200;1,300;1,400;1,600;1,700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Rakkas&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Rakkas&display=swap');
+
+@media only screen and (max-width: 300px){
+    
+} 
+@media only screen and ((max-width: 800px) and (min-width: 100px)){
+    header{
+        height: 200px;
+    }
+    .flex{
+        display: flex;
+        flex-direction: column;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    
+    .navbar{
+        display: flex;
+        height: 138px;
+    }
+    .topleft{
+        margin-top: 90px;
+    }
+    .section1{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .topright{
+        display: none;
+    }
+    .part1{
+        display: flex;
+        flex-direction: column;
+    
+    }
+    
+    
+} 
+
+   
+  
+
+*{
+    margin: 0;
+    padding: 0;
+    background-color: black;
+}
+.container{
+    max-width: 80vw;
+    font-family: "Kulim Park", sans-serif;
+}
+.navbar{
+    display: flex;
+    height: 67px;
+}
+.navbar li{
+    list-style: none;
+    margin: 0 12px;
+    font-family: "Rakkas", serif;
+    cursor: pointer;
+}
+
+.navbar li:hover{
+    color: rgb(12, 41, 100);
+    background-color: rgb(101, 157, 169);
+}
+
+.topleft{
+    width: 50%;
+    margin-top: 40px;
+    
+}
+.topright{
+    position: absolute;
+    top: 110px;
+    right: 20px;
+    height: 20vh;
+    width: 37%;
+}
+
+.section1{
+    min-height: 78vh;
+    background-color: black;
+}
+
+.section1 h1{
+    font-size: 2rem;
+    color: rgb(78, 157, 116);
+}
+
+.logo{
+    font-size: 1.3rem;
+    font-family: "Lora", serif;
+}
+
+.iconing{
+    width: 60px;
+}
+
+.section2{
+    padding: 70px;
+}
+
+.section2 h1{
+    font-size: 2.3rem;
+    color: rgb(78, 157, 116);
+}
+
+.section2 p{
+    padding: 0 8vw;
+    text-align: center;
+}
+
+.box{
+    padding: 8px 0;
+    margin: 12px 22px;
+    min-width: 20vw;
+    border: 2px solid rgb(44, 99, 69);
+    border-radius: 8px;
+    text-align: center;
+}
+
+.box h2{
+    font-size: 2rem;
+    padding: 15px 0;
+}
+
+.highlighted{
+    font-size: 1.2rem;
+    font-weight: bolder;
+}
+
+.box ul{
+    list-style-type: none;
+}
+
+.box ul li{
+    margin: 12px 2px;
+}
+
+.plantable{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section3 h1{
+    color: rgb(78, 157, 116);
+}
+
+.section3 table{
+    width: 100%;
+    margin-bottom: 140px;
+    margin-top: 20px;
+    border-collapse: collapse;
+}
+
+.section3 table th{
+    width: 23vw;
+    border-bottom: 2px solid rgb(252, 250, 250);
+    padding: 15px 0;
+}
+
+.section3 table td{
+    border-bottom: 2px solid rgb(249, 247, 247);
+}
+
+
+.section3 h1{
+    font-size: 2.3rem;
+}
+
+.section3{
+    padding: 70px;
+}
+
+.section4 h1{
+    color: rgb(78, 157, 116);
+}
+
+.h-primary{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 50px;
+    font-size: 35px;
+    font-family: "Noto Serif", serif;
+}
+
+.team_member{
+    background: #fff;
+    margin: 5px;
+    margin-bottom: 50px;
+    width: 150px;
+    color: rgb(110, 87, 127);
+    
+}
+
+.part1{
+    display: flex;
+    text-align: center;
+    width: auto;
+    justify-content: center;
+}
+
+footer{
+    padding: 23px;
+    text-align: center;
+}
